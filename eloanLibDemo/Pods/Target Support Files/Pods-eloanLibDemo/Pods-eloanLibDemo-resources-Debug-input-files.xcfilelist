@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-eloanLibDemo/Pods-eloanLibDemo-resources.sh
+${PODS_ROOT}/HRSigningContract/Resources/HRSigningContract.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/eCameraLib/eCameraLib.bundle
+${PODS_ROOT}/eHRFaceSDK/eHRFaceSDK/Assets/HRFaceImageBundle.bundle
+${PODS_ROOT}/../../eloanLib/Assets/eLoanBundle.bundle
