@@ -1,6 +1,0 @@
-framework module HRSigningContract {
-  umbrella header "HRSigningContract-umbrella.h"
-
-  export *
-  module * { export * }
-}

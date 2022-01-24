@@ -1,6 +1,0 @@
-framework module HRFaceSDK {
-  umbrella header "HRFaceSDK.h"
-
-  export *
-  module * { export * }
-}
