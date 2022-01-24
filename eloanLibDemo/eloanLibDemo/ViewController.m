@@ -76,6 +76,7 @@
                                              @"bidScene":@"1",
                                              @"repayPeriod":@"12",
                                              @"isApplyCharge":@"0",
+                                             @"authPrefixUrl":@"http://hrfax.imwork.net:29081/api",
                                              @"authUrl":@"/api/auth"
                                              }];
 //    [self.dataDic addEntriesFromDictionary:@{
@@ -116,7 +117,7 @@
                        @{@"name":@"中标场景",@"code":@"bidScene"},
                        @{@"name":@"期数",@"code":@"repayPeriod"},
                        @{@"name":@"是否申请附加费",@"code":@"isApplyCharge"},
-                       @{@"name":@"鉴权地址",@"code":@"authUrl"}
+                       @{@"name":@"鉴权地址前缀",@"code":@"authPrefixUrl"}
     ];
    
   

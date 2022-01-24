@@ -73,8 +73,11 @@ NS_ASSUME_NONNULL_BEGIN
 //isApplyCharge     否    String    是否申请附加费(0:否 1:是)
 @property (nonatomic,copy)NSString *isApplyCharge;
 
-//authUrl     否    String    鉴权接口地址
+//authUrl     否    String    鉴权接口地址path
 @property (nonatomic,copy)NSString *authUrl;
+
+//authUrl     否    String    鉴权接口地址前缀
+@property (nonatomic,copy)NSString *authPrefixUrl;
 
 - (id)infoCheck;
 + (NSDictionary *)dicFromObject:(NSObject *)object;

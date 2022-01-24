@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy) NSString *requestUrl;
 
+@property (nonatomic,copy) NSString *authPrefixRequestUrl;
+
 @property (nonatomic,copy) NSString *signMode;
 
 @end
