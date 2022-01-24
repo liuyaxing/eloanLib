@@ -1,17 +1,18 @@
 //
-//  ELOANViewController.m
+//  ViewController.m
 //  eloanLib
 //
 //  Created by 24290265@qq.com on 11/26/2019.
 //  Copyright (c) 2019 24290265@qq.com. All rights reserved.
 //
 
-#import "ELOANViewController.h"
-#import "EloanHomeVC.h"
-#import "EloanHomeModel.h"
+#import "ViewController.h"
+#import <eLoanSDK/eLoanSDK.h>
+#import <eLoanSDK/EloanHomeVC.h>
+#import <eLoanSDK/EloanHomeModel.h>
 #import "EloanTableViewCell.h"
 #import <YYModel/YYModel.h>
-@interface ELOANViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 
 @property (nonatomic,strong) UITableView  *tableview ;
@@ -21,7 +22,7 @@
 @property (nonatomic,copy)NSArray *rowArray;
 @end
 
-@implementation ELOANViewController
+@implementation ViewController
 
 
 
