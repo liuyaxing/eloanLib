@@ -69,14 +69,14 @@
                                              @"tenderNo":@"55117321",
                                              @"marketingArchivesNum":@"46000014",
                                              @"busiType":@"19",
-                                             @"url":@"http://hrfax.imwork.net:29081/api",
+                                             @"url":@"https://gdwebappl.icbc.com.cn/efq/api/",
                                              @"HRfaceUrl":@"http://114.55.55.41:8998",
                                              @"payStatus":@"dasdas",
                                              @"signMode":@"3",
                                              @"bidScene":@"1",
                                              @"repayPeriod":@"12",
                                              @"isApplyCharge":@"0",
-                                             @"authPrefixUrl":@"http://hrfax.imwork.net:29081/api",
+                                             @"authPrefixUrl":@"https://gdwebappl.icbc.com.cn/efq/",
                                              @"authUrl":@"/api/auth"
                                              }];
 //    [self.dataDic addEntriesFromDictionary:@{
@@ -110,7 +110,6 @@
                        @{@"name":@"营销档案编号",@"code":@"marketingArchivesNum"},
                        @{@"name":@"业务品种",@"code":@"busiType"},
                        @{@"name":@"请求地址",@"code":@"url"},
-                       @{@"name":@"鉴权地址",@"code":@"authUrl"},
                        @{@"name":@"面签地址",@"code":@"HRfaceUrl"},
                        @{@"name":@"支付状态",@"code":@"payStatus"},
                        @{@"name":@"签约环境",@"code":@"signMode"},
