@@ -109,6 +109,7 @@
                        @{@"name":@"营销档案编号",@"code":@"marketingArchivesNum"},
                        @{@"name":@"业务品种",@"code":@"busiType"},
                        @{@"name":@"请求地址",@"code":@"url"},
+                       @{@"name":@"鉴权地址",@"code":@"authUrl"},
                        @{@"name":@"面签地址",@"code":@"HRfaceUrl"},
                        @{@"name":@"支付状态",@"code":@"payStatus"},
                        @{@"name":@"签约环境",@"code":@"signMode"},
